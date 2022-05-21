@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  z-index: 100;
+}
+
+.navbar .Logo {
+  position: relative;
+  top: 19px;
+}
+
+.navbar .menu {
+  position: relative;
+  list-style: none;
+  top: -5.3px;
+}
+
+.navbar .menu li {
+  position: relative;
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.navbar .menu li a {
+  position: relative;
+  text-decoration: none;
+  color: gray;
+}
+
+.navbar .rightbutton {
+  position: absolute;
+  list-style: none;
+  right: 8%;
+  top: 14px;
+}
+
+.navbar .rightbutton span {
+  position: relative;
+  top: -1px;
+}
+
+.navbar .rightbutton button {
+  background: -webkit-gradient(linear, left bottom, left top, from(#22c1c3), color-stop(38%, #29d09e), color-stop(94%, #3ffd2d));
+  background: linear-gradient(0deg, #22c1c3 0%, #29d09e 38%, #3ffd2d 94%);
+  border: 0;
+  width: 150px;
+  height: 35px;
+  border-radius: 50px;
+  color: white;
+  font-family: 'Commissioner', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+body {
+  font-family: 'Commissioner', sans-serif;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.Menusection .ID1 {
+  position: absolute;
+  width: 50%;
+  top: 5px;
+  right: -0px;
+  z-index: 0;
+}
+
+.Menusection h1 {
+  position: relative;
+  top: 230px;
+  font-size: 47px;
+  font-weight: 100;
+  width: 480px;
+}
+
+.Menusection p {
+  position: relative;
+  color: gray;
+  top: 270px;
+  width: 390px;
+}
+
+.Menusection button {
+  position: relative;
+  background: -webkit-gradient(linear, left bottom, left top, from(#22c1c3), color-stop(38%, #29d09e), color-stop(94%, #3ffd2d));
+  background: linear-gradient(0deg, #22c1c3 0%, #29d09e 38%, #3ffd2d 94%);
+  border: 0;
+  width: 180px;
+  height: 43px;
+  border-radius: 50px;
+  color: white;
+  font-family: 'Commissioner', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  top: 300px;
+}
+
+.Card1 {
+  position: relative;
+  width: 310px;
+  height: 300px;
+  background-color: transparent;
+  z-index: 90;
+  top: 40px;
+}
+
+.Card1 img {
+  position: absolute;
+  left: 10px;
+}
+
+.Card1 h1 {
+  position: absolute;
+  left: 10px;
+  font-weight: 300;
+  color: black;
+  top: 100px;
+  font-size: 28px;
+}
+
+.Card1 p {
+  position: absolute;
+  left: 10px;
+  color: gray;
+  top: 150px;
+  width: 310px;
+}
+
+.card {
+  background-color: gray;
+  position: relative;
+  top: 520px;
+}
+
+.card li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.css-1-1 {
+  position: relative;
+  left: -42px;
+}
+
+.css-2-csa {
+  position: relative;
+  left: -4px;
+}
+
+.KJDSAKLJD {
+  position: relative;
+  left: -50px;
+}
+
+.jhdlsahdjkashdjk {
+  position: relative;
+  left: -50px;
+}
+
+.JDSALJ {
+  position: relative;
+  left: -28px;
+}
+
+.bg-gray {
+  background-color: gainsboro;
+}
+
+.Navabr2 {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  height: 500px;
+  background-color: transparent;
+}
+
+.Navabr2 h1 {
+  position: relative;
+  top: 10px;
+  color: gray;
+  font-weight: 100;
+}
+
+.Navabr2 p {
+  position: relative;
+  color: gray;
+  top: 10px;
+  width: 550px;
+}
+
+.Top-css-css h1 {
+  position: relative;
+  font-size: 40px;
+  color: black;
+  font-weight: 100;
+  top: 100px;
+}
+
+.card8 {
+  position: relative;
+  width: 310px;
+  height: 300px;
+  background-color: transparent;
+  z-index: 90;
+  top: 150px;
+}
+
+.card8 li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.card8 img {
+  width: 300px;
+  border-radius: 10px;
+  height: 270px;
+}
+
+.card8 span {
+  position: relative;
+  top: 00px;
+}
+
+.navbar3 {
+  position: relative;
+  top: 15px;
+  width: 100%;
+  height: 200px;
+  background-color: #2D314E;
+}
+
+.ID2 {
+  position: absolute;
+  right: 0px;
+  max-width: 50%;
+  top: -160px;
+}
+
+@media (max-width: 985px) {
+  .Menusection {
+    position: relative;
+    top: 300px;
+  }
+  .PR {
+    position: relative;
+    top: -170px;
+    right: 25%;
+  }
+}
+
+@media (max-width: 600px) {
+  .PR {
+    position: relative;
+    top: -30px;
+    right: 25%;
+  }
+}
+
+@media (max-width: 985px) {
+  .Toping {
+    position: relative;
+    top: 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu a {
+    font-size: 0px;
+  }
+}
+
+.Open {
+  width: 0;
+}
+
+@media (max-width: 800px) {
+  #Mine {
+    width: 0px;
+    font-size: 0;
+  }
+  .Open {
+    position: absolute;
+    top: 10px;
+    width: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */

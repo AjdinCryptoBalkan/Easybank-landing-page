@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    z-index: 100;
+    
+    .Logo{
+        position: relative;
+        top: 19px;
+    }
+    .menu{
+        position: relative;
+        list-style: none;
+        top: -5.3px;
+        li{
+            position: relative;
+            display: inline-block;
+            padding: 0px 10px;
+        a{
+            position: relative;
+            text-decoration: none;
+            color: gray;
+        }
+        }
+    }
+  .rightbutton{
+      position: absolute;
+      list-style: none;
+      right: 8%;
+      top: 14px;
+      
+      span{
+          position: relative;
+          top: -1px;
+      }
+button{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(41,208,158,1) 38%, rgba(63,253,45,1) 94%);
+    border: 0;
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+  }
+}
+
+body{
+    font-family: 'Commissioner', sans-serif;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  .Menusection{
+    .ID1{
+          position: absolute;
+          width: 50%;
+          top: 5px;
+          right: -0px;
+          z-index: 0;
+      }
+      h1{
+          position: relative;
+          top: 230px;
+          font-size: 47px;
+          font-weight: 100;
+          width: 480px;
+      }
+      p{
+          position: relative;
+          color: gray;
+          top: 270px;
+          width: 390px;
+      }
+      button{
+          position: relative;
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(41,208,158,1) 38%, rgba(63,253,45,1) 94%);
+        border: 0;
+        width: 180px;
+        height: 43px;
+        border-radius: 50px;
+        color: white;
+        font-family: 'Commissioner', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        top: 300px;
+    }
+  }
+  .Card1{
+      position: relative;
+      width: 310px;
+      height: 300px;
+      background-color: transparent;
+      z-index: 90;
+      top: 40px;
+      img{
+          position: absolute;
+          left: 10px;
+      }
+      h1{
+          position: absolute;
+          left: 10px;
+          font-weight: 300;
+          color: black;
+          top: 100px;
+          font-size: 28px;
+      }
+      p{
+        position: absolute;
+          left: 10px;
+          color: gray;  
+          top: 150px;
+          width: 310px;
+          
+      }
+  }
+  .card{
+      background-color: gray;
+      position: relative;
+      top: 520px;
+      li{
+          display: inline-block;
+          padding: 0px 20px;
+      }
+  }
+  .css-1-1{
+      position: relative;
+      left: -42px;
+  }
+  .css-2-csa{
+      position: relative;
+      left:-4px;
+  }
+  .KJDSAKLJD{
+      position: relative;
+      left: -50px;
+  }
+  .jhdlsahdjkashdjk{
+      position: relative;
+      left: -50px;
+  }
+  .JDSALJ{
+      position: relative;
+      left: -28px;
+  }
+  .bg-gray{
+      background-color: gainsboro;
+  }
+  .Navabr2{
+      position: relative;
+
+    top: 80px;
+      width: 100%;
+      height: 500px;
+      background-color: transparent;
+      h1{
+          position: relative;
+          top: 10px;
+          color: gray;
+          font-weight: 100;
+      }
+      p{
+          position: relative;
+          color: gray;
+          top: 10px;
+          width: 550px;
+      }
+  }
+  .Top-css-css{
+      h1{
+          position: relative;
+          font-size: 40px;
+          color: black;
+          font-weight: 100;
+          top: 100px;
+      }
+  }
+  .card8{
+    position: relative;
+    width: 310px;
+    height: 300px;
+    background-color: transparent;
+    z-index: 90;
+    top: 150px;
+    li{
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    img{
+        width: 300px;
+        border-radius: 10px;
+        height: 270px;
+    }
+    span{
+        position: relative;
+        top:00px;
+    }
+}
+.navbar3{
+    position: relative;
+    top: 15px;
+    width: 100%;
+    height: 200px;
+    background-color: #2D314E;
+    img{
+
+    }
+}
+.ID2{
+    position: absolute;
+    right: 0px;
+    max-width: 50%;
+    top: -160px;
+}
+@media (max-width:985px) {
+    .Menusection{
+        position: relative;
+        top: 300px;
+    }
+    .PR{
+        position: relative;
+        top: -170px;
+        right: 25%;
+    }
+}
+@media (max-width:600px){
+    .PR{
+        position: relative;
+        top: -30px;
+        right: 25%;
+    }
+}
+@media (max-width:985px){
+    .Toping{
+        position: relative;
+        top: 100px;
+    }
+}
+@media (max-width:800px){
+    .menu{
+        a{
+            font-size: 0px;
+        }
+    }
+    
+}
+.Open{
+    width: 0;
+}
+@media (max-width:800px){
+
+    #Mine{
+        width: 0px;
+        font-size: 0;
+    }
+    .Open{
+        position: absolute;
+        top: 10px;
+        width: auto;
+    }
+    }
+    
+    
+
